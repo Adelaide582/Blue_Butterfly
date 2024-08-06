@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head {
+               width: 80px;
+               height: 10px;
+               border: 1px solid rgb(151, 151, 151);
+               background-color: grey; 
+               border-top:  10%;
+               padding: 10px;
+               text-align: center;
+               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               font-size: 20px;
+               padding-top: 10px;
+           }
+
+   .content {
+               width: 95%;
+               height: 20%;
+               font-size: 18px;
+               font-family: Arial, Helvetica, sans-serif;
+               border: 1px solid rgb(151, 151, 151);
+               border-radius: 5px;
+               background-color: rgb(202, 202, 202);
+               padding: 15px;
+       }
+
+   .container {
+       margin-top: 450px;
+       /* margin-left: 300px; */
+   }
+
+   body {
+       background-image: url(download.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-position-y: 0px;
+       background-color: grey;
+       background-attachment: fixed;
+   }
+
+   .Voice{
+        width: 200px;
+        height: 50px;
+        border: 1px solid black;
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            Maid
+        </div>
+        <div class="content" id="demo" style="display: none;">
+           <p>How dare you talk back to me, have you forgoten who you are to me or have you started acting like this because your the Duke's doughter? </p>
+           <p>I guess you getting drunk and acting like a fool at the party has damaged your head a litle</p>
+        </div>
+
+        <iframe src="Voice6 - Made with Clipchamp.mp4" class="Voice"></iframe>
+
+        <button type="button" onclick="document.getElementById('demo').style.display='block'" ondblclick="document.getElementById('demo').style.display='none'">display text</button>
+        
+        <a href="chapter1.7.html">
+            <button href="chapter1.7.html">Next</button>    
+            </a>        
+    </div>   
+</body>
+</html>
+<!-- rgb(85, 78, 111); -->

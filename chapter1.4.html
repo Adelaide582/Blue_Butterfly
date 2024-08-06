@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .head {
+                width: 80px;
+                height: 10px;
+                border: 1px solid rgb(151, 151, 151);
+                background-color: rgb(85, 78, 111);
+                border-top:  10%;
+                padding: 10px;
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+                padding-top: 10px;
+            }
+
+    .content {
+                width: 95%;
+                height: 20%;
+                font-size: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+                border: 1px solid rgb(151, 151, 151);
+                border-radius: 5px;
+                background-color: rgb(202, 202, 202);
+                padding: 15px;
+        }
+
+    .container {
+        margin-top: 400px;
+    }
+
+    body {
+        background-image: url(ANIME-PICTURES.NET_-_672215-1511x890-original-wanke-single-long+hair-looking+at+viewer-fringe.jpeg);
+        background-position: center center;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-color: grey;
+    }
+
+    .Voice{
+        width: 200px;
+        height: 50px;
+        border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            Narator
+        </div>
+        <div class="content" id="demo" style="display: none;">
+           <p> ...slowly sitting up, taking in the unfamiliar surroundings. The room had an air of elegance, with luxurious furnishings and soft, muted colors. The maid in front of you wore a neatly pressed uniform, and her expression was one of concern.</p>
+
+           <p> Feeling a bit disoriented, you cleared your throat and mustered the courage to ask, "Uh, where am I? And who are you?"</p>
+        </div>
+
+        <iframe src="Voice4 - Made with Clipchamp.mp4" class="Voice"></iframe>
+
+        <button type="button" onclick="document.getElementById('demo').style.display='block'" ondblclick="document.getElementById('demo').style.display='none'">display text</button>
+        
+        <a href="chapter1.5.html">
+            <button href="chapter1.5.html" onclick="document.getElementsByClassName('hello').style.display='block'" >Next</button>    
+            </a>        
+    </div>   
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+    </script>
+    <style>
+        .container {
+            width: 400px;
+            height: 260px;
+            border: 1px solid black;
+            border-radius: 5%;
+            padding: 10px;
+            margin-top: 10%;
+            margin-left: 30%;
+            font-size: 20px;
+        }
+
+        .invest {
+            padding: 5px;
+            margin-top: 10px;
+            /* margin-left: 200px; */
+        }
+
+        .play {
+            padding: 5px;
+            margin-top: 0px;
+            /* margin-left: 10px; */
+        }
+
+        .head:hover{
+           
+            transform: translate(20px, 20px);
+            /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+        }
+        
+    </style>
+
+    <script>
+
+        function handleClick() {
+            let result = "<link src='chapter2.html'>"
+            
+            document.write(result)
+        }
+    </script>
+</head>
+
+<body style="background-image: url('fireworks.jpg');   background-position: center center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-color: grey;">
+    <div class="container">
+
+  <h1 class="head">
+    Butterfly
+    </h1>
+    
+    <div class="subtitle"> 
+        'ur' is game curency 5$ = 1ur, you can play other games to earn 'ur'
+    </div>
+    <br/>
+    <div>
+        After payment double click to play
+    </div>
+    <a href="chapter2.html">
+    <button class="invest" onclick="alert('10 ur has been paid')" href="chapter2.html">
+            Pay for next chapter 10ur
+    </button>
+    </a>
+
+
+
+    <a href="play.html">
+    <button class="play" href="play.html">
+        Play a game to spend time
+    </button>
+    </a>
+</div>
+</body>
+</html>

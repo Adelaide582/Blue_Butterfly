@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .head {
+                width: 80px;
+                height: 10px;
+                border: 1px solid rgb(151, 151, 151);
+                background-color: rgb(85, 78, 111);
+                border-top:  10%;
+                padding: 10px;
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+                padding-top: 10px;
+            }
+
+    .content {
+                width: 95%;
+                height: 20%;
+                font-size: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+                border: 1px solid rgb(151, 151, 151);
+                border-radius: 5px;
+                background-color: rgb(202, 202, 202);
+                padding: 15px;
+        }
+
+    .container {
+        margin-top: 400px;
+    }
+
+    body {
+        background-image: url(wallpaperflare.com_wallpaper.jpg);
+        background-position: center center;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-color: grey;  
+    }
+
+    .Voice{
+        width: 200px;
+        height: 50px;
+        border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            Narator
+        </div>
+        <div class="content" id="demo" style="display: none;">
+           <p> As you asked the maid about your whereabouts, you noticed a subtle tremor in her voice, and her eyes betrayed a hint of fear. The air in the room seemed to grow tense, and you became increasingly aware that something unusual was at play.</p>
+
+           <p>Concerned by the maid's unease, you pressed for more information. "Why do you seem scared? What happened to me? And where exactly am I?" you questioned, your tone firm but not aggressive.</p>
+        </div>
+
+        <iframe src="Voice5 - Made with Clipchamp.mp4" class="Voice"></iframe>
+
+        <button type="button" onclick="document.getElementById('demo').style.display='block'" ondblclick="document.getElementById('demo').style.display='none'">display text</button>
+        
+        <a href="chapter1.6.html">
+            <button href="chapter1.6.html">Next</button>    
+            </a>        
+    </div>   
+</body>
+</html>
